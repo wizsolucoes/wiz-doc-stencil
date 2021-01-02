@@ -2,18 +2,13 @@ import React from 'react';
 import { routeItem } from './routes.types'
 
 /*
-* @desc Fluxo são páginas geradas pelo PLOP.js  
+* @desc Fluxo são páginas geradas pelo PLOP.js
 */
 const RoutesFluxos = [
   {
-    path: 'admin',
-    routerPrivate: false,
-    component: React.lazy( () => import('pages/Admin'))
-  },
-  {
     path: '',
     routerPrivate: false,
-    component: React.lazy( () => import('pages/Home'))
+    component: React.lazy( () => import('pages/View'))
   }
 ] as routeItem[]
 
