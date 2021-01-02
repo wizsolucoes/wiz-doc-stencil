@@ -1,9 +1,29 @@
 .ViewPage {
-  h2 {
+  h1 {
     font-size: 35px;
     font-weight: bold;
     margin-bottom: 16px;
     margin-top: 16px;
     color: var(--gray-700);
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    color: var(--gray-600);
+  }
+  p {
+    margin-top: 12px;
+    display: block;
+    font-weight: 400;
+    color: var(--gray-900)
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  a {
+    color: var(--cl-primary-800)
   }
 }
