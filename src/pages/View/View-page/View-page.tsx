@@ -4,7 +4,6 @@ import React, { useEffect, useState} from 'react'
 import './View-page.scss'
 import DocAngular from 'components/DocAngular/DocAngular'
 import DocReact from 'components/DocReact/DocReact'
-import { Link } from 'react-router-dom'
 import { PageNotParams } from 'Shared/fallback-components/fallback-components'
 import DocVue from 'components/DocVue/DocVue'
 

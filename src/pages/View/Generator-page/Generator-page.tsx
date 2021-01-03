@@ -1,19 +1,18 @@
 import Code from 'components/Code/Code';
+import { PATH_DEFAULT } from 'config';
 import React, { useState} from 'react'
 import { useForm } from "react-hook-form";
-
-import './Generator-page.scss'
 
 const GeneratorPage = () => {
   const { register, handleSubmit } = useForm<{tag: string, npm: string}>();
   const [pathLink, setpathLink] = useState<null | string>(null)
-  const host = window.location.host
+
   const onSubmit = (data: any) => {
     setpathLink(`npm=${data.npm}&tag=${encodeURIComponent(data.tag)}`)
   }
 
   const linkGenerator = (framework: string) => {
-    return host + `/#/?framework=${framework}&` + pathLink
+    return PATH_DEFAULT + `/?framework=${framework}&` + pathLink
   }
 
   return (
@@ -23,7 +22,7 @@ const GeneratorPage = () => {
       <p>Gerador para criar um mini tutorial de como inicializar o seu componente stenciljs em <i>React, Vue e Angular</i> </p>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="npm" className="block text-sm text-gray-700 mt-md">NPM</label>
-        <input required name="npm" className="w-full px-xs py-xs text-gray-700 bg-gray-200 rounded mb-sm" id="npm" defaultValue="@wizsolucoes/" ref={register} />
+        <input required name="npm" className="w-full px-xs py-xs text-gray-700 bg-gray-200 rounded mb-sm" id="npm" placeholder="examplo: @wizsolucoes/wiz-alert"  ref={register} />
         <div>
         <label htmlFor="tag" className="block text-sm text-gray-700">Tag Component</label>
         <textarea required className="w-full px-xs py-xs text-gray-700 bg-gray-200 rounded mb-sm" name="tag" ref={register} id="tag-component" cols={30} rows={10}></textarea>
