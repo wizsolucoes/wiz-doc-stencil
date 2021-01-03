@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { BrowserRouter as Router, Route, Switch, RouteComponentProps} from 'react-router-dom';
+import { Route, Switch, RouteComponentProps} from 'react-router-dom';
 
 import ViewPage from 'pages/View/View-page/View-page'
 import GeneratorPage from 'pages/View/Generator-page/Generator-page'

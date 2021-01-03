@@ -1,11 +1,11 @@
 {
-  "name": "outline-boilerplate-react",
+  "name": "wiz-docs-stencil",
   "version": "0.1.0",
   "private": false,
-  "description": "boilerplate react para iniciar um projeto base",
+  "description": "Criação do Readme.md para web components com Stencil.js",
   "author": "Raul Melo",
   "license": "ISC",
-  "homepage": "https://raulmelo.github.io/wiz-doc-stencil/",
+  "homepage": "https://raulmelo.github.io/wiz-doc-stencil/#/",
   "scripts": {
     "prestart": "yarn tailwind",
     "start": "react-scripts start",
