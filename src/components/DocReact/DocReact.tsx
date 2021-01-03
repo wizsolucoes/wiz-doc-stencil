@@ -45,7 +45,7 @@ const DocReact = (props: propsModel) => {
       <p><small>Se já tiver declarado antes <b>applyPolyfills</b> por outro componente, não precisarar implementar de novo apenas adicione o {defineComponent} dentro do <b>applyPolyfills</b> já existente.</small></p>
 <Code language="javascript">
 {`applyPolyfills().then(() => {
-    wizPowerbiDefine();
+    ${defineComponent}();
 });`}
 </Code>
       <hr/>

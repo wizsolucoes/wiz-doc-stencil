@@ -8,7 +8,8 @@ const GeneratorPage = () => {
   const [pathLink, setpathLink] = useState<null | string>(null)
 
   const onSubmit = (data: any) => {
-    setpathLink(`npm=${data.npm}&tag=${encodeURIComponent(data.tag)}`)
+    const removeCaractereSpecial = data.tag.replace(/[(]/g, '〘').replace(/[)]/g, '〙')
+    setpathLink(`npm=${data.npm}&tag=${encodeURIComponent(removeCaractereSpecial)}`)
   }
 
   const linkGenerator = (framework: string) => {

@@ -26,7 +26,8 @@ const ViewPage = (props: any) => {
     if(SearchParams.has('tag')) {
       const tag = SearchParams.get('tag')
       const tagDecode = tag ? decodeURIComponent(tag) : ''
-      setTagComponent(tagDecode);
+      const replaceCaractereSpecial = tagDecode.replace(/[〘]/g, '(').replace(/[〙]/g, ')')
+      setTagComponent(replaceCaractereSpecial);
     }
     if(SearchParams.has('framework')) {
       const framework = SearchParams.get('framework')
