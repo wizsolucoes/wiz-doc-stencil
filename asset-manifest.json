@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wiz-doc-stencil/static/css/main.26a047cb.chunk.css",
-    "main.js": "/wiz-doc-stencil/static/js/main.e08cd8fb.chunk.js",
-    "main.js.map": "/wiz-doc-stencil/static/js/main.e08cd8fb.chunk.js.map",
+    "main.js": "/wiz-doc-stencil/static/js/main.fb85ff4a.chunk.js",
+    "main.js.map": "/wiz-doc-stencil/static/js/main.fb85ff4a.chunk.js.map",
     "runtime-main.js": "/wiz-doc-stencil/static/js/runtime-main.8d3d330d.js",
     "runtime-main.js.map": "/wiz-doc-stencil/static/js/runtime-main.8d3d330d.js.map",
     "static/css/2.15ba1ee3.chunk.css": "/wiz-doc-stencil/static/css/2.15ba1ee3.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.15ba1ee3.chunk.css",
     "static/js/2.25cc914b.chunk.js",
     "static/css/main.26a047cb.chunk.css",
-    "static/js/main.e08cd8fb.chunk.js"
+    "static/js/main.fb85ff4a.chunk.js"
   ]
 }
