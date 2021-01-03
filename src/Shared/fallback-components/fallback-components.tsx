@@ -23,7 +23,7 @@ export const PageNotParams = () => {
     </div>
     <div>
       <h3>Atenção! </h3>
-      <h4>Não foi possível carregar os dados, <br /> <a href="/#/generator"><strong>clique aqui</strong> </a> para iniciar o processo novamente.</h4>
+      <h4>Não foi possível carregar os dados, <br /> <a href="https://raulmelo.github.io/wiz-doc-stencil/#/generator"><strong>clique aqui</strong> </a> para iniciar o processo novamente.</h4>
     </div>
   </div>
   )
