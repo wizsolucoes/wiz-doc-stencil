@@ -26,4 +26,37 @@
   a {
     color: var(--cl-primary-800)
   }
+  blockquote {
+    margin-top: 8px;
+    padding: 0 1em;
+    color: var(--gray-400);
+    border-left: .25em solid var(--gray-200);
+  }
+  .page-loading {
+    background-color: white;
+    z-index: 4;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    h3 {
+      color: #13265a;
+      margin-top: 20px;
+    }
+    a {
+      font-weight: 900;
+      color: orange;
+    }
+
+    .lds-roller {
+      display: inline-block;
+      position: relative;
+      width: 64px;
+      height: 64px;
+      font-size: 65px;
+    }
+  }
 }

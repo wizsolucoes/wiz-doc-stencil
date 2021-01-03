@@ -9,12 +9,10 @@ const View = ({ match }: RouteComponentProps) => {
   const { url } = match
   return (
     <div id="View">
-      <Router>
         <Switch >
-            <Route path={url +  'generator'} component={ GeneratorPage }/>
-            <Route path={url}  component={ ViewPage } data={match}/>
+            <Route path={'/generator'} component={ GeneratorPage }/>
+            <Route path={url} exact component={ ViewPage } data={match}/>
         </Switch>
-      </Router>
     </div>
   )
 }

@@ -6,7 +6,7 @@ import { routeItem } from './routes.types'
 */
 const RoutesFluxos = [
   {
-    path: '',
+    path: '#',
     routerPrivate: false,
     component: React.lazy( () => import('pages/View'))
   }
