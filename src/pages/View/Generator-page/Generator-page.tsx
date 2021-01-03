@@ -19,7 +19,7 @@ const GeneratorPage = () => {
   return (
     <div className="GeneratorPage ">
       <div className="">
-      <h1 className="text-md text-gray-900">Gerador</h1>
+      <h1 className="text-md text-gray-900">Preencha os campos abaixo</h1>
       <p>Gerador para criar um mini tutorial de como inicializar o seu componente stenciljs em <i>React, Vue e Angular</i> </p>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="npm" className="block text-sm text-gray-700 mt-md">NPM</label>
