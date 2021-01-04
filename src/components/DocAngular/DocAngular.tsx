@@ -53,7 +53,7 @@ const DocAngular = (props: propsModel) => {
 </Code>
     <p><small>É <b>CUSTOM_ELEMENTS_SCHEMA</b> necessário incluir em qualquer módulo que use elementos personalizados.</small></p>
     <hr/>
-    <h2>Passo 2 - main.ts</h2>
+    <h2>2) main.ts</h2>
 <Code language="javascript">
   {`import { defineCustomElements as ${defineComponent} } from '${props.npm}/loader';`}
 </Code>
@@ -62,7 +62,7 @@ const DocAngular = (props: propsModel) => {
       {`${defineComponent}()`}
     </Code>
     <hr/>
-    <h2>2) Tag html</h2>
+    <h2>3) Tag html</h2>
 <Code language="html">
 {props.tagComponent}
 </Code>

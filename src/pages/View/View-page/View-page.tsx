@@ -47,6 +47,9 @@ const ViewPage = (props: any) => {
         {framework === 'react' && <DocReact tagComponent={tagComponent} npm={npm} />}
         {framework === 'angular' && <DocAngular tagComponent={tagComponent} npm={npm} />}
         {framework === 'vue' && <DocVue tagComponent={tagComponent} npm={npm} />}
+        <blockquote>
+          Volte para o github ou NPM do web componente para ver todos os parametros.
+        </blockquote>
         <hr/>
         {framework && <p> Você também pode olhar na documentação do Stenciljs sobre <a href={`https://stenciljs.com/docs/${framework}`} target="_blank" rel="noreferrer" title="link">documentação {framework}</a></p>}
         </>
