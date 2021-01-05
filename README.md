@@ -1,14 +1,49 @@
 # WIZ DOCS STENCIL
-Esse projeto foi desenvolvido para simplificar a criação do Readme.md para web components com Stencil.js, 
+Esse projeto foi desenvolvido para simplificar e ajudar na instalação do seu *web componente com Stenciljs*,
 gerando um mini tutorial de como instalar seu  web componente em React, Vue e Angular.
 
 
+## Como usar 
+### 1 - Entre [nesse Link](https://wizsolucoes.github.io/wiz-doc-stencil/#/generator) para adicionar seu componente.
+
+### 2 - Preencha o formulário
+  ####  Campo NPM
+   Adicione o registro do npm do seu componente.
+
+Exemplo:
+```bash 
+  @minhaOrganizacao/meu-componente
+```
+  #### Campo Tag Component
+  Nesse campo você pode adicionar o seu componente com os principais parametros,
+  adicione os parametros com os valores estaticos pois cada framework tem uma forma
+  de adicionar valores dinâmicos.
+
+  Exemplo:
+```html 
+  <my-component type="success" icon="icon-happy" direction="left">
+    Você foi logado com sucesso!
+  </my-component>
+```
+Clica no botão de *gerar*.
+
+
+### 3 - Código
+Pronto, Logo após o click do botão foi adicionado 2 novas sessões, _Links gerados_ e _Adicione no seu readme.md_
+
+#### Links gerados
+Nessa parte deve conter os links de como instalar em cada framework, você pode abrir para testar sua instalação.
+
+
+#### Adicione no seu readme.md
+Por último copie o código gerado nessa sessão e adicione no seu *README.md* do seu componente,
+ele irar conter os links gerados com o mini tutorial de como instalar o seu _componente_ numa aplicação em react, angular e vue.
 
 ## Exemplo 
 
 |Frameworks| Link|
 |--|--|
-|Angular| [Link](localhost:3000?framework=angular&npm=@wizsolucoes/wiz-tabs&tag=%20%3Cwiz-tabs%20vertical%3D%22false%22%3E%0A%20%20%20%20%3Cwiz-tab%20type%3D%22horizontal%22%20(openEvent)%3D%22openEvent(%24event)%22%20eventValue%3D'teste'%20active%3D%22false%22%3ENome%20da%20tab%3C%2Fwiz-tab%3E%0A%20%20%20%20%3Cwiz-tab%20type%3D%22horizontal%22%20(openEvent)%3D%22openEvent(%24event)%22%20eventValue%3D'teste'%20active%3D%22true%22%3ENome%20da%20tab%3C%2Fwiz-tab%3E%0A%20%20%3C%2Fwiz-tabs%3E)|
-|React | [Link](localhost:3000?framework=react&npm=@wizsolucoes/wiz-tabs&tag=%20%3Cwiz-tabs%20vertical%3D%22false%22%3E%0A%20%20%20%20%3Cwiz-tab%20type%3D%22horizontal%22%20(openEvent)%3D%22openEvent(%24event)%22%20eventValue%3D'teste'%20active%3D%22false%22%3ENome%20da%20tab%3C%2Fwiz-tab%3E%0A%20%20%20%20%3Cwiz-tab%20type%3D%22horizontal%22%20(openEvent)%3D%22openEvent(%24event)%22%20eventValue%3D'teste'%20active%3D%22true%22%3ENome%20da%20tab%3C%2Fwiz-tab%3E%0A%20%20%3C%2Fwiz-tabs%3E)|
-|Vue | [Link](localhost:3000?framework=vue&npm=@wizsolucoes/wiz-tabs&tag=%20%3Cwiz-tabs%20vertical%3D%22false%22%3E%0A%20%20%20%20%3Cwiz-tab%20type%3D%22horizontal%22%20(openEvent)%3D%22openEvent(%24event)%22%20eventValue%3D'teste'%20active%3D%22false%22%3ENome%20da%20tab%3C%2Fwiz-tab%3E%0A%20%20%20%20%3Cwiz-tab%20type%3D%22horizontal%22%20(openEvent)%3D%22openEvent(%24event)%22%20eventValue%3D'teste'%20active%3D%22true%22%3ENome%20da%20tab%3C%2Fwiz-tab%3E%0A%20%20%3C%2Fwiz-tabs%3E)|
-[outros](https://stenciljs.com/docs/overview)
+|Angular| [Link]()|
+|React | [Link]()|
+|Vue | [Link]()|
+| [outros](https://stenciljs.com/docs/overview)| 

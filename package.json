@@ -5,7 +5,7 @@
   "description": "Criação do Readme.md para web components com Stencil.js",
   "author": "Raul Melo",
   "license": "ISC",
-  "homepage": "https://raulmelo.github.io/wiz-doc-stencil/#/",
+  "homepage": "https://wizsolucoes.github.io/wiz-doc-stencil/#/",
   "scripts": {
     "prestart": "yarn tailwind",
     "start": "react-scripts start",
