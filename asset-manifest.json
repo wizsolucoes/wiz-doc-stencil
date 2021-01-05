@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/wiz-doc-stencil/static/css/main.26a047cb.chunk.css",
-    "main.js": "/wiz-doc-stencil/static/js/main.afd639ba.chunk.js",
-    "main.js.map": "/wiz-doc-stencil/static/js/main.afd639ba.chunk.js.map",
+    "main.js": "/wiz-doc-stencil/static/js/main.e520e9a5.chunk.js",
+    "main.js.map": "/wiz-doc-stencil/static/js/main.e520e9a5.chunk.js.map",
     "runtime-main.js": "/wiz-doc-stencil/static/js/runtime-main.8d3d330d.js",
     "runtime-main.js.map": "/wiz-doc-stencil/static/js/runtime-main.8d3d330d.js.map",
     "static/css/2.15ba1ee3.chunk.css": "/wiz-doc-stencil/static/css/2.15ba1ee3.chunk.css",
-    "static/js/2.25cc914b.chunk.js": "/wiz-doc-stencil/static/js/2.25cc914b.chunk.js",
-    "static/js/2.25cc914b.chunk.js.map": "/wiz-doc-stencil/static/js/2.25cc914b.chunk.js.map",
+    "static/js/2.1b1c8ef8.chunk.js": "/wiz-doc-stencil/static/js/2.1b1c8ef8.chunk.js",
+    "static/js/2.1b1c8ef8.chunk.js.map": "/wiz-doc-stencil/static/js/2.1b1c8ef8.chunk.js.map",
     "static/js/3.f98fb722.chunk.js": "/wiz-doc-stencil/static/js/3.f98fb722.chunk.js",
     "static/js/3.f98fb722.chunk.js.map": "/wiz-doc-stencil/static/js/3.f98fb722.chunk.js.map",
     "index.html": "/wiz-doc-stencil/index.html",
     "static/css/2.15ba1ee3.chunk.css.map": "/wiz-doc-stencil/static/css/2.15ba1ee3.chunk.css.map",
     "static/css/main.26a047cb.chunk.css.map": "/wiz-doc-stencil/static/css/main.26a047cb.chunk.css.map",
-    "static/js/2.25cc914b.chunk.js.LICENSE.txt": "/wiz-doc-stencil/static/js/2.25cc914b.chunk.js.LICENSE.txt"
+    "static/js/2.1b1c8ef8.chunk.js.LICENSE.txt": "/wiz-doc-stencil/static/js/2.1b1c8ef8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8d3d330d.js",
     "static/css/2.15ba1ee3.chunk.css",
-    "static/js/2.25cc914b.chunk.js",
+    "static/js/2.1b1c8ef8.chunk.js",
     "static/css/main.26a047cb.chunk.css",
-    "static/js/main.afd639ba.chunk.js"
+    "static/js/main.e520e9a5.chunk.js"
   ]
 }
